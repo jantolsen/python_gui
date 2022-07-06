@@ -1,4 +1,4 @@
-# Controller
+# Gamepad
 # ------------------------------
 # Description:
 # Read input values from external gamepad Controller
@@ -13,11 +13,11 @@ import threading
 import time
 
 # Import Toolbox
-import xbox_toolbox as Toolbox
+import ctrl.ctrl_toolbox as Toolbox
 
-# Controller Class
+# Gamepad Class
 # ------------------------------
-class Controller():
+class Gamepad():
 
     # Class constructor
     # ------------------------------
